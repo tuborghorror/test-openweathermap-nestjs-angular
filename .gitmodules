@@ -1,0 +1,6 @@
+[submodule "openweathermap-nestjs-backend"]
+	path = openweathermap-nestjs-backend
+	url = git@github.com:tuborghorror/openweathermap-nestjs-backend.git
+[submodule "openweathermap-angular-frontend"]
+	path = openweathermap-angular-frontend
+	url = git@github.com:tuborghorror/openweathermap-angular-frontend.git
