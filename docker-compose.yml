@@ -3,14 +3,14 @@ services:
   front:
     build:
       context: ./openweathermap-angular-frontend
-    container_name: front
+    container_name: front-openweathermap
     restart: unless-stopped
     ports:
       - "4200:4200"
   server:
     build:
       context: ./openweathermap-nestjs-backend
-    container_name: backend
+    container_name: backend-openweathermap
     restart: unless-stopped
     ports:
       - "3000:3000"
